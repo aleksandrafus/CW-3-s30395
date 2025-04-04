@@ -396,5 +396,21 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# JetBrains Rider
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.swp
+*.userprefs
+
+# Rider
+.idea/
 *.sln.iml
+
+#NuGet
+*.nupkg
+packages/
